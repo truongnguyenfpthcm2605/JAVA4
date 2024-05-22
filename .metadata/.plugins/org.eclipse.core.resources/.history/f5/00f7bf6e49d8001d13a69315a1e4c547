@@ -1,0 +1,28 @@
+package com.poly.ps24083.controller;
+
+import java.io.IOException;
+import java.util.List;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.poly.ps24083.empl.VideoImlpl;
+import com.poly.ps24083.enity.Video;
+
+@WebServlet({"/App"})
+public class App extends HttpServlet {
+	VideoImlpl videodao = new VideoImlpl();
+
+	private static final long serialVersionUID = 1L;
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		List<Video> listvideo  = videodao.findAll();
+		request.setAttribute("list", listvideo);
+		request.setAttribute("view", "/views/jsp/index.jsp");
+		request.getRequestDispatcher("/views/jsp/index.jsp").forward(request, response);
+	}
+
+}

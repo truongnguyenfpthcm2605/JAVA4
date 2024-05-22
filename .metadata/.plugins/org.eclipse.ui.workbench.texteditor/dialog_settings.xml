@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value=""/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="&lt;!--"/>
+			<item value="--&gt;"/>
+			<item value="${pageContext.request.contextPath}"/>
+			<item value="/ASM-PS24083/"/>
+			<item value=".card"/>
+			<item value=".film"/>
+			<item value=".col-md-3"/>
+			<item value="film"/>
+			<item value="Clients"/>
+			<item value=".love"/>
+			<item value="love"/>
+			<item value="h2"/>
+			<item value="Report"/>
+			<item value="success"/>
+			<item value="form-check-label"/>
+		</list>
+		<list key="replacehistory">
+			<item value=""/>
+			<item value="${pageContext.request.contextPath}/"/>
+			<item value="${pageContext.request.contextPath}"/>
+			<item value="DienThoai"/>
+			<item value="Feedback"/>
+			<item value="light"/>
+			<item value="badge badge-success"/>
+			<item value="o."/>
+			<item value="o"/>
+			<item value="UserDao2"/>
+			<item value=" "/>
+			<item value="app"/>
+			<item value="/ASM-PS24083/views/img/"/>
+			<item value="100%"/>
+			<item value="Item"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="1252"/>
+		<item key="DIALOG_Y_ORIGIN" value="258"/>
+		<item key="DIALOG_WIDTH" value="414"/>
+		<item key="DIALOG_HEIGHT" value="454"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+</section>
